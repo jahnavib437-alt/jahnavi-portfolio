@@ -1,0 +1,6 @@
+{
+  "name": "Jahnavi B - Computer Science Portfolio",
+  "description": "Futuristic interactive portfolio of Jahnavi B, featuring a custom AI assistant, projects filter, experience interactive timeline, and certifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

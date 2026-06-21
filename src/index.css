@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Specific scanline keyframe animation supporting our simulated Computer Vision camera feed */
+@keyframes scanline {
+  0% {
+    transform: translateY(0);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translateY(280px);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0.1;
+  }
+}
+
+/* Custom fade-in and scale-up animation rules */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleUp {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+.animate-scale-up {
+  animation: scaleUp 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Scrollbar styling helpers */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(0, 229, 255, 0.15);
+  border-radius: 4px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 229, 255, 0.3);
+}
+
+/* Native @media print utilities. Highly professional: guarantees that clicking "Print Resume" */
+/* formats, isolates, and renders only her clean resume, ignoring all navigation headers and widget floating layers. */
+@media print {
+  /* Reset document and hide all outer page sections */
+  body, html {
+    background: white !important;
+    color: black !important;
+  }
+  
+  body #root > div > * {
+    display: none !important;
+  }
+  
+  body #root > div > main > * {
+    display: none !important;
+  }
+
+  /* Isolate resume card elements specifically */
+  body #root > div > main > #resume {
+    display: block !important;
+    padding: 0 !important;
+    background: white !important;
+  }
+
+  body #root > div > main > #resume > div > div > div {
+    display: none !important; /* Hide cover letter columns */
+  }
+
+  body #root > div > main > #resume > div > div > div:first-child {
+    display: block !important; /* Force show resume card */
+    width: 100% !important;
+  }
+
+  #resume-printable-card {
+    border: none !important;
+    background: white !important;
+    color: black !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    width: 100% !important;
+  }
+
+  #resume-printable-card * {
+    color: black !important;
+  }
+
+  /* Hide print buttons */
+  #resume > div > div:first-child,
+  #resume > div > div > div {
+    display: none !important;
+  }
+}
