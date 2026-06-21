@@ -1,4 +1,4 @@
-# Hi, I'm Jahnavi 👋
+# Hi, I'm Jahnavi B 👋 
 
 ## 💻 Computer Science Student | Python Developer | Machine Learning Enthusiast
 
