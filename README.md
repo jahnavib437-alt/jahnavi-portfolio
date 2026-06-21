@@ -1,20 +1,115 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Hi, I'm Jahnavi 👋
 
-# Run and deploy your AI Studio app
+## 💻 Computer Science Student | Python Developer | Machine Learning Enthusiast
 
-This contains everything you need to run your app locally.
+Welcome to my personal portfolio repository. This project showcases my skills, projects, certifications, and journey as an aspiring software engineer passionate about building intelligent and innovative solutions.
 
-View your app in AI Studio: https://ai.studio/apps/6713ee32-b527-44b8-90c1-5d3df0479a4e
+---
 
-## Run Locally
+## 🚀 About This Portfolio
 
-**Prerequisites:**  Node.js
+This is a modern interactive developer portfolio designed to highlight:
 
+- Software development skills
+- Python and Machine Learning projects
+- Technical achievements
+- Certifications
+- Professional growth journey
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+The portfolio includes a responsive UI, interactive sections, smooth animations, and a clean modern design.
+
+---
+
+## ✨ Features
+
+- 🌐 Responsive modern portfolio design
+- 🤖 AI-inspired user interface
+- 📂 Project showcase with filtering
+- 🧑‍💻 Skills and technology showcase
+- 📜 Certifications section
+- 🕒 Interactive experience timeline
+- 📄 Resume download feature
+- 📱 Mobile-friendly design
+- ⚡ Smooth animations and transitions
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend:
+- React.js
+- TypeScript
+- HTML5
+- CSS3
+- Tailwind CSS
+
+### Programming:
+- Python
+- JavaScript
+
+### Machine Learning:
+- Machine Learning Algorithms
+- Computer Vision
+- OpenCV
+
+### Tools:
+- Git
+- GitHub
+- VS Code
+- Vite
+
+---
+
+## 📌 Featured Projects
+
+### 🚗 AI Driver Monitoring System
+
+An AI-based driver safety system that detects fatigue and monitors driver behavior using:
+
+- Python
+- OpenCV
+- Machine Learning
+
+Features:
+- Real-time face analysis
+- Fatigue detection
+- Safety alerts
+- Automated monitoring
+
+---
+
+## 🎯 Areas of Interest
+
+- Artificial Intelligence
+- Machine Learning
+- Python Development
+- Computer Vision
+- Software Engineering
+- Full Stack Development
+
+---
+
+## 📈 Future Improvements
+
+- Adding more AI-powered projects
+- Improving UI animations
+- Integrating advanced machine learning applications
+
+---
+
+## 📬 Connect With Me
+
+LinkedIn:
+(Add your LinkedIn link)
+
+GitHub:
+(Add your GitHub link)
+
+Email:
+(Add your email)
+
+---
+
+## ⭐ Acknowledgement
+
+Built with passion, curiosity, and a continuous learning mindset to explore technology and create meaningful solutions.
